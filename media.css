@@ -1,0 +1,144 @@
+@media (max-width: 1199px){
+    .container{
+        width: 1000px;
+    }
+    .illustration{
+        width: 550px;
+    }
+    
+    
+    
+}
+
+@media (max-width: 999px){
+    .container{
+        width: 800px;
+    }
+    .illustration{
+        width: 50%;
+        height: 350px;
+    }
+    .main_left h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .main_left{
+        width: 50%;
+    }
+    .main_left p{
+        font-size: 14px;
+        font-weight: 350;
+        margin: 15px 0 35px;
+    }
+    .main_search{
+        width: 100%;
+    }
+    .social_net{
+        margin-top: 20px;
+    }
+    main{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 799px){
+    .container{
+        width: 600px;
+    }
+
+    .burger{
+        display: none;
+    }
+    .burger.active{
+        display: flex;
+        height: 100vh;
+        background: #80808090;
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        right: 0;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .burger_btn{
+        width: 40px;
+        height: 4px;
+        background: #E08631;
+        position: fixed;
+        top: 30px;
+        right: 40px;
+        transition: 0.5s;
+        display: block;
+
+    }
+    .burger_btn::before{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        background: #E08631;
+        display: block;
+        top: -10px;
+        transition: 0.5s;
+
+    }
+    .burger_btn::after{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        background: #E08631;
+        display: block;
+        top: 10px;
+        transition: 0.5s;
+
+    }
+    .burger_btn.active{
+        background: none;
+    }
+    
+    .burger_btn.active::after{
+        transform: rotate(-45deg);
+        top: 0;
+        transition: 0.5s;
+    }
+    .burger_btn.active::before{
+        transform: rotate(45deg);
+        top: 0;
+        transform: 0.5s;
+    }
+
+    .header__box ul{
+        flex-direction: column;
+    }
+    .main_left h1{
+        font-size: 18px;
+    }
+    .illustration{
+        width: 50%;
+        height: 90%;
+    }
+    .main_left{
+        width: 50%;
+    }
+    .main_left p{
+        font-size: 10px;
+        font-weight: 270;
+        margin: 10px 0 20px;
+    }
+    .main_search{
+        width: 90%;
+        height: 46px;
+        align-items: center;
+    }
+    .main_search button{
+        height: 85%;
+        
+    }
+    .main_search input{
+        width: 140px;
+    }
+}

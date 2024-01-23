@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_box">
+                <img src="image/Group 1399.png" alt="">
+                <div class="burger">
+                    <ul>
+                        <li>Home</li>
+                        <li>Categories</li>
+                        <li>My Collections</li>
+                        <li>Blog</li>
+                    </ul>
+                    <div class="header_auth">
+                        <button class="log_btn" onclick="popin()">Login</button>
+                        <button class="auth_btn" onclick="popup()">Sign Up</button>
+                    </div>
+                    </div>
+            </div>
+            <div onclick="toggleBurger()" class="burger_btn"></div>
+        </div>
+        <form class="form" action="">
+            <button class="btn_x" onclick="popup()">X</button>
+            <h2>Signup Form</h2>
+            <div class="form_btns">
+                <button class="login">Login</button>
+                <button class="signup">Signup</button>
+            </div>
+            <label>
+                <input type="email" placeholder="Email Address">
+            </label>
+            <label>
+                <input type="password" placeholder="Password">
+            </label>
+            <a href="">Forgot password?</a>
+            <button class="form_sign">Signup</button>
+        </form>
+
+        <form class="log_form" action="">
+            <h2>Зарегистрироваться</h2>
+            <div class="signn">
+                <p>Уже есть аккаунт?</p>
+                <a href="">Войти</a>
+            </div>
+            <div class="log_input">
+                <input type="email" placeholder="Эл. почта"> <br>
+                <input type="password" placeholder="Пароль">
+            </div>
+            <button>Зарегистрироваться</button>
+            <p>Или зарегистрируйтесь через</p>
+            <div class="icons">
+                <img src="image/facebook.svg" alt="">
+                <img src="image/google.png" alt="">
+            </div>
+        </form>
+    </header>
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="main_box">
+                    <div class="main_left">
+                        <h1>Awesome tools for
+                            Designer & Developer.</h1>
+                        <p>Antool is a web collection of information on paid or <br> free Design and Development tools</p>
+                        <div class="main_search">
+                            <div class="search_left">
+                                <img src="image/search.png" alt="">
+                                <input type="text" placeholder="find more than 430+ tools...">
+                            </div>
+                            <button>Search</button>
+                        </div>
+                        <div class="social_net">
+                            <img src="image/bx_bxl-facebook.svg" alt="">
+                            <img src="image/bx_bxl-instagram.svg" alt="">
+                            <img src="image/bx_bxl-twitter.svg" alt="">
+                        </div>
+                    </div>
+                    <img class="illustration" src="image/Illustration.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="tools">
+            <div class="container">
+                <h2>Most Popular Tools</h2>
+                <p class="most">Tools for the best Designers and Developers <br>
+                    most popularly used in the world</p>
+                <div class="tools__top">
+                    <div class="tools_top_left">
+                        <img src="image/grommet-icons_figma.svg" alt="">
+                        <h3>FIGMA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like.svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div>
+                    <div class="tools_top_center">
+                        <img src="image/logos_sketch.svg" alt="">
+                        <h3>Sketch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like (1).svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div>
+                    <div class="tools_top_left">
+                        <img src="image/logos_visual-studio-code.svg" alt="">
+                        <h3>Visual Studio Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like.svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools__bottom">
+                    <div class="tools_top_left">
+                        <img src="image/notion.svg" alt="">
+                        <h3>Notion</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like.svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div><div class="tools_top_left">
+                        <img src="image/grommet-icons_slack.svg" alt="">
+                        <h3>Slack</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like.svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div><div class="tools_top_left">
+                        <img src="image/logos_invision-icon.svg" alt="">
+                        <h3>Invision</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="top__outline">
+                            <div class="outline__img">
+                                <img src="image/flat-color-icons_like.svg" alt="">
+                                <img src="image/eva_folder-add-outline.svg" alt="">
+                            </div>
+                            <button>Visit</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="load">Load more</button>
+            </div>
+        </section> -->
+    </main>
+    <footer></footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
